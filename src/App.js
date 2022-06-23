@@ -8,7 +8,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 function App() {
   return (
     <>
-      {/* <h1>Hello, Shahid' Space</h1> */}
+      <h1>Hello, Shahid' Space</h1>
       <Canvas camera={{ position: [0, 0, 5]}} onCreated={({ gl }) => {
         gl.shadowMap.enabled = true
         gl.shadowMap.type = THREE.PCFShadowMap
